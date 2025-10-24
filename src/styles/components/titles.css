@@ -32,6 +32,6 @@
 
     .paragraph {
 
-        @apply text-xs/1.5 text-black font-inter font-normal;
+        @apply text-xs/6 text-black font-inter font-normal;
     }
 }
