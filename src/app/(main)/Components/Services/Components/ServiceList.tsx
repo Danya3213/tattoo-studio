@@ -34,7 +34,7 @@ export const ServiceList = (): ReactElement => {
         <ul className={"grid grid-cols-3 gap-x-7.5 gap-y-10 grid-rows-2"}>
             {services.map((service, index) => {
 
-                return <Service key={index} {...service} src={`/images/service-${index + 1}.png`} />
+                return <Service key={index} {...service} src={`/images/services/service-${index + 1}.png`} />
             })}
             <LastService/>
         </ul>
