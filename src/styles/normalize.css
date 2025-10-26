@@ -6,6 +6,6 @@
 
     button {
 
-        @apply font-inter font-semibold text-xs py-4 px-8
+        @apply font-inter font-semibold text-xs py-4 px-8 transition duration-300 ease-in-out border-solid;
     }
 }

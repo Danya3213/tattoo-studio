@@ -28,7 +28,8 @@
       "@public/*": ["./public/*"],
       "@images/*": ["./public/images/*"],
       "@icons/*": ["./public/icons/*"],
-      "@devConsole": ["./src/services/devConsole"],
+      "@utils/*": ["./src/utils/*"],
+      "devConsole": ["./src/utils/devConsole"],
 
       // components and pages
       "@Components/*": ["./src/Components/*"],

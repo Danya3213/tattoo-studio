@@ -2,16 +2,64 @@
 
     .apple-button {
 
-        @apply bg-apple text-white;
+        @apply bg-apple text-white border-2 border-transparent;
+
+        &:active {
+            @apply text-apple bg-white border-2 border-apple;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+
+            &:hover:not(:active) {
+                @apply text-apple bg-white border-2 border-apple;
+            }
+
+            &:active {
+
+                @apply bg-apple text-white border-2 border-transparent;
+            }
+        }
     }
 
     .transparent-button {
 
-        @apply bg-transparent text-apple border border-apple;
+        @apply bg-transparent text-apple border border-apple transition-colors duration-200;
+
+        &:active {
+            @apply bg-apple text-white;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+
+            &:hover:not(:active) {
+                @apply bg-apple text-white;
+            }
+
+            &:active {
+
+                @apply text-apple bg-white;
+            }
+        }
     }
 
     .black-button {
 
         @apply bg-black text-light;
+
+        &:active {
+            @apply text-black bg-light;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+
+            &:hover:not(:active) {
+                @apply text-black bg-light;
+            }
+
+            &:active {
+
+                @apply bg-black text-light;
+            }
+        }
     }
 }

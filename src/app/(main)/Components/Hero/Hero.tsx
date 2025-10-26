@@ -1,8 +1,8 @@
 import {type ReactElement} from 'react'
+import {Button} from "@Components/Button/Button";
 import {Container} from "@Components/Container/Container";
 import {Background} from "./Components/Background";
 import {Title} from "./Components/Title";
-import {Button} from "./Components/Button";
 import {Number} from "./Components/Number";
 import {TopTitle} from "./Components/TopTitle";
 import {BottomTitle} from "./Components/BottomTitle";
@@ -15,7 +15,7 @@ export const Hero = (): ReactElement => {
             <Container className={"pt-25 pb-90 relative"}>
                 <TopTitle/>
                 <Title/>
-                <Button/>
+                <Button inner={"Записатися"} coloring={"apple"} />
                 <div className={"absolute left-0 bottom-12.5 flex justify-between w-full"}>
                     <Number/>
                     <BottomTitle/>

@@ -1,6 +1,6 @@
 import {type ReactElement} from 'react'
 import {LastService} from "./LastService";
-import {Service} from "@main/Components/Services/Components/Service";
+import {Service} from "@main/Components/Services/Components/Service/Service";
 
 export const ServiceList = (): ReactElement => {
 

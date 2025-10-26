@@ -1,6 +1,7 @@
-import {Hero} from "@main/Components/Hero/Hero";
-import {About} from "@main/Components/About/About";
-import {Services} from "@main/Components/Services/Services";
+import {Hero} from "./Components/Hero/Hero";
+import {About} from "./Components/About/About";
+import {Services} from "./Components/Services/Services";
+import {Instagram} from "./Components/Instagram/Instagram";
 
 export default function Main() {
   return (
@@ -8,6 +9,7 @@ export default function Main() {
         <Hero/>
         <About/>
           <Services/>
+          <Instagram/>
       </main>
   );
 }
